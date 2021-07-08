@@ -14,7 +14,7 @@ tamamla.style.display = "none";
 
 _button.disabled = true;
 
-//select yapıldıgında çalışsacak kısım
+
 _hesap.addEventListener('change', function(){
     _button.disabled=false;
     timerBaslat();
@@ -32,7 +32,7 @@ _iban.addEventListener('change',function(){
 
 
 
-//button tıklandığında kontroller yapılacak
+
 _button.addEventListener('click', paraGonder);
 _buttontamamla.addEventListener('click', sifreKontrol);
 
@@ -47,7 +47,7 @@ let dur = false;
 
 
 
-//kontrol kısmı ve fonksiyon
+
 function paraGonder(){
     let _hesap=document.querySelector('#Hesaplarim');
 
